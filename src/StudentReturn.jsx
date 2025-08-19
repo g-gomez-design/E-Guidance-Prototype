@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Return() {
+export default function StudentReturn() {
   const pageStyle = {
     backgroundImage: `url('https://i.ibb.co/68038Yg/image-eab724.jpg')`,
     backgroundSize: "cover",
