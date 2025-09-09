@@ -6,7 +6,11 @@ import './index.css'
 
 //*Login page*//
 
-import Login from './Log-in';
+// import Login from './Log-in';
+
+// Homepage
+
+import { Homepage } from './Homepage';
 
 //*Student view*//
 
@@ -15,8 +19,9 @@ import Login from './Log-in';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Login/>
+    {/* <Login/> */}
     {/* <StudentReport/> */}
     {/* <StudentReturn/> */}
+    <Homepage/>
   </StrictMode>,
 )
